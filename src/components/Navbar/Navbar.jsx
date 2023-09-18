@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../assets/logo.png";
 
 export const Navbar = () => {
   return (
@@ -8,11 +9,7 @@ export const Navbar = () => {
         aria-label="Global"
       >
         <div className="flex flex-shrink-0 items-center ">
-          <img
-            className="w-14 drop-shadow-md "
-            src="src\assets\logo.png"
-            alt="Anime logo"
-          />
+          <img className="w-14 drop-shadow-md " src={Logo} alt="Anime logo" />
           <div class="flex items-center justify-between">
             <a
               class="flex-none text-5xl  dark:text-white drop-shadow-md"
