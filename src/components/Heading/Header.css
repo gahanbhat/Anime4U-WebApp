@@ -1,0 +1,30 @@
+.heading
+{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0 4rem;
+    color: #444;
+    position: relative;
+}
+
+.heading::after
+{
+    content: '';
+    position: relative;
+    display: block;
+    width: 2em;
+    height: 4px;
+    background-color: rgb(77 124 15);
+    top: 100%;
+    left: 50%;
+    margin-left: -1em;
+}
+
+.heading > i
+{
+    display: inline-block;
+    height: .8em;
+    width: .8em;
+    background-image: url(logo.svg );
+    background-repeat: no-repeat;
+}
